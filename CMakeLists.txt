@@ -140,7 +140,7 @@ ENDIF (WIN32)
 ###
 IF (NOT USE_CUSTOM_TCP_CLIENT)
   hunter_add_package(tacopie)
-  find_package(tacopie CONFIG REQUIRED)
+  find_package(tacopie)
 ENDIF (NOT USE_CUSTOM_TCP_CLIENT)
 
 IF (WIN32)
